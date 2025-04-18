@@ -8,7 +8,7 @@ const botTypeClasses = {
   Witch: "icon magic",
   Captain: "icon star",
 };
-
+//Botspecs
 function BotSpecs({ bot, onGoBack, onEnlist }) {
   return (
     <div className="ui segment">

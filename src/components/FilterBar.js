@@ -1,4 +1,4 @@
-// FilterBar.js
+// Filter.js
 import React, { useState } from "react";
 
 function FilterBar({ botClasses, onFilter }) {

@@ -1,6 +1,6 @@
 import React from "react";
 import BotCard from "./BotCard";
-
+//Filtering 
 function BotCollection({ bots, onShowDetails, onDelete, sortCriteria, filters, onEnlist }) {
   const filteredBots = bots.filter((bot) => {
     if (filters.length === 0) return true; 
@@ -11,7 +11,7 @@ function BotCollection({ bots, onShowDetails, onDelete, sortCriteria, filters, o
     if (!sortCriteria) return 0;
     return b[sortCriteria] - a[sortCriteria];
   });
-
+//Enlist
   const handleEnlist = (bot) => {
     onEnlist(bot);
   };

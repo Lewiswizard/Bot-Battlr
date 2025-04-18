@@ -1,5 +1,5 @@
 import React from "react";
-
+//Sorting
 function SortBar({ onSort }) {
   const handleSort = (criteria) => {
     onSort(criteria);

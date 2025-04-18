@@ -9,7 +9,7 @@ function YourBotArmy({ selectedBots, onBotDeselect, onDelete }) {
   return (
     <div className="ui segment inverted olive bot-army">
       <div className="ui five column grid">
-        <h2>Your Bot Army</h2>
+        <h1>𝐘ⱺυ𝗋 𝐁ⱺ𝗍 𝐀𝗋ꭑ𝗒⛵️</h1>
         <div className="row bot-army-row">
           {selectedBots.map((selectedBot) => (
             <BotCard key={selectedBot.id} bot={selectedBot} onShowDetails={handleBotDeselect} onDelete={onDelete} isYourArmy={true} />

@@ -8,7 +8,7 @@ const botTypeClasses = {
   Witch: "icon magic",
   Captain: "icon star",
 };
-
+//Delete
 function BotCard({ bot, onShowDetails, onDelete,isYourArmy}) {
   const handleDelete = () => {
     const confirmDelete = window.confirm("Are you sure you want to delete this bot?");
