@@ -9,21 +9,8 @@ Here's the scenario: a galactic overlord has hired you, a galactic web
 developer, to develop a galactic web app that will allow them to browse through
 a list of robots, view a robot's details, and, enlist a bot into their army.
 
-## Instructions
-
-For this project, you’ll be building out a React application that displays a
-list of available bots, among other features. Try your best to find the right
-places to insert code into the established code base.
-
-Part of what this code challenge is testing is your ability to follow given
-instructions. While you will definitely have a significant amount of freedom in
-how you implement the features, be sure to carefully read the directions for
-setting up the application.
 
 ## Setup
-
-After unbundling the project:
-
 1. Run `npm install` in your terminal.
 2. Run `npm run server`. This will run your backend on port `8002`.
 3. In a new terminal, run `npm start`. This will run your React app on port `8000`.
@@ -33,7 +20,7 @@ the browser to verify that your backend is working before you proceed!
 
 The base URL for your backend is: `http://localhost:8002`
 
-## What You Already Have
+## 
 
 `BotPage` is the highest component below App, and serves as the main container
 for all of the pieces of the page.
