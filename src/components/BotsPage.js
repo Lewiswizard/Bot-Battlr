@@ -13,7 +13,7 @@ function BotsPage() {
   const [filters, setFilters] = useState([]);
 
   useEffect(() => {
-    // Fetch data from backend when component mounts
+    // Fetch data from backend 
     fetch("http://localhost:8002/bots")
       .then((response) => response.json())
       .then((data) => {

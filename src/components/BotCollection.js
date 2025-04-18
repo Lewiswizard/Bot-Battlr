@@ -3,7 +3,7 @@ import BotCard from "./BotCard";
 
 function BotCollection({ bots, onShowDetails, onDelete, sortCriteria, filters, onEnlist }) {
   const filteredBots = bots.filter((bot) => {
-    if (filters.length === 0) return true; // If no filters selected, include all bots
+    if (filters.length === 0) return true; 
     return filters.includes(bot.bot_class);
   });
 
